@@ -5,18 +5,10 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 mb-4 bg-white/80 backdrop-blur-md shadow-sm">
       {/* Upper section: Logo & Name */}
-      <div className="bg-purple-600 text-white py-3 text-center md:text-left md:px-8">
-        <div className="mb-2 md:mb-0">
-          <Image
-            src="/public/logo.png"
-            alt="Arukah Health Logo"
-            fill
-            className="object-center object-contain"
-          />
-        </div>
-        <h1 className="text-2xl md:text-3xl font-bold tracking-wide">
+      <div className=" text-white py-3 text-center md:text-left md:px-8">
+        <h1 className="text-2xl md:text-3xl font-bold  text-blue-500 tracking-wide">
           Arukah Health
         </h1>
       </div>

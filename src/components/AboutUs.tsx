@@ -54,7 +54,7 @@ Our team blends clinical expertise with emotional intelligence—creating a welc
 
 Consistent Guidance and Support
 From onboarding to independence, we walk alongside each child—offering steady encouragement, clear communication, and therapeutic continuity.`,
-    imageUrl: "/public/logo.png",
+    imageUrl: "/images/IMG_9652.jpg",
     color: "blue",
   },
   {
@@ -68,7 +68,7 @@ We offer adaptable scheduling to accommodate diverse lifestyles, school routines
 
 Multi-disciplinary Wellness Approach
 We work with a multi-disciplinary team of experts—from neurologists and pediatricians to speech therapists, occupational therapists and nutritionists —to deliver personalized care that goes beyond physical therapy. By integrating developmental support, family education and specialists’ consultations, we address the child’s neurological, physical, and emotional needs—treating the whole child, not just the isolated motor or functional challenges.`,
-    imageUrl: "/public/logo.png",
+    imageUrl: "/images/IMG_2491.jpg",
     color: "orange",
   },
 ];
