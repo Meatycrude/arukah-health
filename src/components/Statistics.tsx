@@ -61,7 +61,7 @@ export default function Statistics() {
       {/* Translucent joyful background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/public/images/watertheraphy1.jpg"
+          src="/watertheraphy1.jpg"
           alt="Happy children engaged in playful coordination and balance exercises"
           fill
           className="object-cover brightness-90 contrast-110"
