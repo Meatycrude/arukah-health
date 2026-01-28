@@ -8,7 +8,8 @@ const HeroExtro = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("")',
+          backgroundImage:
+            'url("https://i.pinimg.com/1200x/a9/d8/20/a9d8209ebf3d4e8eb0bd787d9fe76dc5.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-purple-900/50 mix-blend-multiply"></div>
@@ -37,7 +38,7 @@ const HeroExtro = () => {
           className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-gray-900 font-bold text-xl md:text-2xl py-4 px-10 rounded-full shadow-2xl hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-yellow-300/50 border-4 border-white/30"
         >
           <span>Start the Adventure!</span>
-          <span className="text-2xl animate-bounce">🚀</span>
+          <span className="text-2xl animate-bounce ">🚀</span>
         </Link>
 
         {/* Decorative Elements */}
