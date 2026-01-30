@@ -28,13 +28,14 @@ const HeroExtro = () => {
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-2xl mx-auto drop-shadow-md">
-          Join thousands of kids and parents exploring fun, learning, and
-          creativity in a safe and vibrant community.
+          Join us in redefining what’s possible. Start your child’s personalized
+          exercise therapy today Move towards mobility, confidence, independence
+          and joy.
         </p>
 
         {/* CTA Button */}
         <Link
-          href="/join" // Change to your target page
+          href="/contact"
           className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-gray-900 font-bold text-xl md:text-2xl py-4 px-10 rounded-full shadow-2xl hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-yellow-300/50 border-4 border-white/30"
         >
           <span>Start the Adventure!</span>
