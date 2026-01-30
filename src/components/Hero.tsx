@@ -50,8 +50,8 @@ export default function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="text-center md:text-left"
         >
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-[#4793FF] mb-6 leading-tight">
-            EXERCISE IS LOVE
+          <h1 className="text-5xl md:text-7xl font-serif font-bold text-blue-700 mb-6 leading-tight">
+            Exercise Is Love
           </h1>
 
           <p className="text-xl md:text-3xl font-serif text-gray-800 mb-8 max-w-xl">
@@ -72,7 +72,7 @@ export default function Hero() {
           </div>
 
           <Link
-            href="/about" // or /exercises — change as needed
+            href="/about"
             className="inline-block bg-[#FFB347] hover:bg-orange-400 text-white font-bold py-5 px-12 rounded-full text-xl shadow-xl transform hover:scale-105 transition duration-300"
           >
             KNOW MORE →

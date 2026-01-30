@@ -128,7 +128,7 @@ export default function AboutUsPage() {
           Our Program Approach
         </h2>
 
-        <div className="prose prose-lg text-medium text-gray-700 text-center max-w-4xl mx-auto mb-16 leading-relaxed">
+        <div className="prose prose-lg text-1.5 text-gray-700 text-center max-w-4xl mx-auto mb-16 leading-relaxed">
           <p>
             Our programs blend clinical rigor with cultural sensitivity,
             emotional warmth, and playful joy.
@@ -156,11 +156,11 @@ export default function AboutUsPage() {
               alt: "Therapist guiding child in gentle interactive play therapy",
             },
             {
-              src: "/images/IMG_2183.jpg",
+              src: "/images/IMG_2325.jpg",
               alt: "Caregiver actively participating in child's therapy session",
             },
             {
-              src: "/images/IMG_2184.jpg",
+              src: "/images/IMG_9508.jpg",
               alt: "Joyful child making heart shape during playful movement activity",
             },
           ].map((img, i) => (
@@ -189,7 +189,7 @@ export default function AboutUsPage() {
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20 pointer-events-none">
           <Image
-            src="/images/IMG_2182.jpg"
+            src="/images/bg1.jpg"
             alt="Soft pastel dreamy clouds background"
             fill
             className="object-cover"
@@ -328,7 +328,7 @@ export default function AboutUsPage() {
             className="rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1"
           >
             <Image
-              src="/images/IMG_2182.jpg"
+              src="/images/IMG-20250822-WA0000.jpg"
               alt="Founder portrait – warm, approachable professional in natural setting"
               width={2560}
               height={1707}
@@ -348,16 +348,16 @@ export default function AboutUsPage() {
             </h2>
             <div className="prose prose-lg text-gray-700 leading-relaxed space-y-6">
               <p>
-                [Founder name] founded Arukah Health with a deep passion for
+                Ivy Gacheri founded Arukah Health with a deep passion for
                 helping children with neuro-developmental challenges discover
                 their potential through joyful, purposeful movement.
               </p>
               <p>
                 With years of clinical experience in pediatric therapy and a
-                heart for families navigating uncertainty, [he/she/they] created
-                a space where science, compassion, and hope converge.
+                heart for families navigating uncertainty, Ivy created a space
+                where science, compassion, and hope converge.
               </p>
-              <p>
+              <p className="italic font-medium">
                 “I believe every child deserves to be seen, celebrated, and
                 supported on their unique journey toward strength and
                 independence.”
